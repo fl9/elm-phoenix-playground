@@ -1,0 +1,9 @@
+{
+  "name": "elm-phoenix-playground",
+  "version": "1.0.0",
+  "description": "Elm Phoenix Playground",
+  "author": "fl9",
+  "devDependencies": {
+    "webpack": "^1.12.4"
+  }
+}
