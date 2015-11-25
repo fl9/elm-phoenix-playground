@@ -5,7 +5,7 @@ var exec = require('child_process').execSync;
 
 module.exports = function(source) {
   this.cacheable();
-  exec(`elm-make --output=elm.js ${this.resourcePath}`, function (error, stdout, stderr) {
+  exec("elm-make --output=elm.js " + this.resourcePath, function (error, stdout, stderr) {
     if (error !== null) {
       console.log('exec error: ' + error);
     }
